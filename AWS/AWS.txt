@@ -1,0 +1,8 @@
+How to Install LetsEncrypt SSL in AWS Ubuntu Server 2019 :
+	https://www.youtube.com/watch?v=koDhIrfx4H0
+
+How To Secure Apache with Let's Encrypt on Ubuntu 18.04
+	https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-ubuntu-18-04
+
+How to force HTTPS in a Laravel project?
+	https://robindirksen.nl/blog/laravel-redirect-to-https-a-middleware-to-force-https#:~:text=Laravel%20Forge%20automatically%20redirects%20HTTP,css).
