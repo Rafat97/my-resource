@@ -1,2 +1,2 @@
-# my-resource
+# My Learning Resource
  
