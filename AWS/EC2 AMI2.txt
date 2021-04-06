@@ -1,0 +1,98 @@
+Docker basics for Amazon ECS
+	https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html
+
+Amazon Linux 2 - install docker & docker-compose using 'sudo amazon-linux-extras' command
+	https://gist.github.com/npearce/6f3c7826c7499587f00957fee62f8ee9
+
+https://docs.docker.com/compose/install/
+
+AWS Load Balancer, Auto Scaling and Route 53 | AWS Tutorial | Edureka 
+	https://www.youtube.com/watch?v=_Hu9WWHfSMk&t=1354s
+
+How to set up Nginx reverse proxy with let’s encrypt
+	https://medium.com/@mightywomble/how-to-set-up-nginx-reverse-proxy-with-lets-encrypt-8ef3fd6b79e5
+
+
+Example:
+s
+server {
+        server_name uploadproject.example.com
+
+
+        access_log /var/log/nginx/reverse-access.log;
+        error_log /var/log/nginx/reverse-error.log;
+
+        location / {
+		proxy_set_header Upgrade $http_upgrade;	
+		proxy_set_header Host $http_host;
+                proxy_set_header X-Real-IP $remote_addr;
+                proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+
+		proxy_http_version  1.1;
+                proxy_pass http://127.0.0.1:9080;
+
+        }
+}
+
+nginx restart:
+	sudo systemctl restart nginx
+
+Amazon Linux 2 restart auto starts
+	sudo chkconfig nginx on
+
+
+
+Certificate automation: Let's Encrypt with Certbot on Amazon Linux 2
+	https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/SSL-on-amazon-linux-2.html#letsencrypt
+
+Using Free Let’s Encrypt SSL/TLS Certificates with NGINXs
+	https://www.nginx.com/blog/using-free-ssltls-certificates-from-lets-encrypt-with-nginx/
+
+
+
+---- After certbot ---
+
+server {
+        server_name uploadproject.example.com www.uploadproject.example.com;
+
+
+        access_log /var/log/nginx/reverse-access.log;
+        error_log /var/log/nginx/reverse-error.log;
+
+        location / {
+                proxy_set_header Upgrade $http_upgrade;
+                proxy_set_header Host $http_host;
+                proxy_set_header X-Real-IP $remote_addr;
+                proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+
+		# for Mixed Content: The page at  This request has been blocked; the content must be served over HTTPS.
+		#add_header Strict-Transport-Security "max-age=31536000" always;
+    		#add_header Content-Security-Policy upgrade-insecure-requests;
+
+                proxy_http_version  1.1;
+                proxy_pass http://127.0.0.1:8080;
+
+        }
+
+
+    listen 443 ssl; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/uploadproject.example.com/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/uploadproject.example.com/privkey.pem; # managed by Certbot
+    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
+}
+server {
+    if ($host = blog.amarischool.com) {
+        return 301 https://$host$request_uri;
+    } # managed by Certbot
+
+
+        server_name uploadproject.example.com www.uploadproject.example.com;
+    listen 80;
+    return 404; # managed by Certbot
+
+
+}
+
+
