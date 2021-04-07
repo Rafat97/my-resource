@@ -1,0 +1,67 @@
+
+cd /var/www
+
+cd /etc/apache2/
+
+cd /var/www/html/amarischool_website_v2/
+
+sudo systemctl status apache2
+
+sudo systemctl  restart apache2
+
+
+
+
+<IfModule mod_ssl.c>
+<VirtualHost *:443>
+        ServerAdmin hoosain.sajjad@gmail.com
+        ServerName amarischool.com
+        ServerAlias www.amarischool.com
+        DocumentRoot /var/www/html
+
+        <Directory /var/www/html>
+                DirectoryIndex index.php
+                Order allow,deny
+                Allow from all
+                Options -Indexes +FollowSymLinks +MultiViews
+                AllowOverride All
+                Require all granted
+        </Directory>
+
+       ErrorLog ${APACHE_LOG_DIR}/error.log
+       CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+Include /etc/letsencrypt/options-ssl-apache.conf
+SSLCertificateFile /etc/letsencrypt/live/amarischool.com/fullchain.pem
+SSLCertificateKeyFile /etc/letsencrypt/live/amarischool.com/privkey.pem
+</VirtualHost>
+</IfModule>
+
+
+
+<IfModule mod_ssl.c>
+<VirtualHost *:443>
+
+        ServerAdmin hoosain.sajjad@gmail.com
+        ServerName blog.amarischool.com
+        ServerAlias www.blog.amarischool.com
+        DocumentRoot /var/www/blog.amarischool/public
+
+        <Directory /var/www/blog.amarischool/public>
+        Options -Indexes +FollowSymLinks +MultiViews
+        AllowOverride All
+        Require all granted
+        DirectoryIndex index.php
+        Order allow,deny
+        Allow from all
+        </Directory>
+
+       ErrorLog ${APACHE_LOG_DIR}/error.log
+       CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+Include /etc/letsencrypt/options-ssl-apache.conf
+SSLCertificateFile /etc/letsencrypt/live/blog.amarischool.com/fullchain.pem
+SSLCertificateKeyFile /etc/letsencrypt/live/blog.amarischool.com/privkey.pem
+</VirtualHost>
+</IfModule>
+
