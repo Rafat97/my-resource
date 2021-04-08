@@ -1,0 +1,5 @@
+https://tailwindcss.com/docs/installation
+
+https://tailwindcss.com/docs/dark-mode
+
+https://medium.com/javascript-in-plain-english/create-a-dark-mode-theme-switch-with-gatsby-and-tailwindcss-d7691f337998
