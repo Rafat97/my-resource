@@ -1,0 +1,4 @@
+https://www.datacamp.com/community/tutorials/wordcloud-python
+
+https://www.kdnuggets.com/2019/05/complete-exploratory-data-analysis-visualization-text-data.html
+
