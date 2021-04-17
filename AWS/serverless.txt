@@ -1,0 +1,6 @@
+https://aws.amazon.com/lambda/resources/workshops-and-tutorials/
+
+https://github.com/aws-samples/aws-serverless-workshops
+
+https://webapp.serverlessworkshops.io/
+
