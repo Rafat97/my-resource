@@ -2,3 +2,11 @@ https://www.datacamp.com/community/tutorials/wordcloud-python
 
 https://www.kdnuggets.com/2019/05/complete-exploratory-data-analysis-visualization-text-data.html
 
+https://www.kaggle.com/andreshg/nlp-glove-bert-tf-idf-lstm-explained#3.-Data-Pre-processing-%F0%9F%9B%A0
+
+https://www.youtube.com/watch?v=90ng9HVdHt4&list=PLc2rvfiptPSToz3K_ozo7zrMJXqe16YUd&index=26
+
+
+
+
+
