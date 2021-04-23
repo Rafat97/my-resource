@@ -1,0 +1,11 @@
+https://www.pluralsight.com/guides/image-classification-with-pytorch
+
+https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html#sphx-glr-beginner-blitz-cifar10-tutorial-py
+
+https://course17.fast.ai/lessons/lesson4.html
+
+https://cs231n.github.io/convolutional-networks/
+
+https://machinelearningmastery.com/convolutional-layers-for-deep-learning-neural-networks/
+
+https://poloclub.github.io/cnn-explainer/
