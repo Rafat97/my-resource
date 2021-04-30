@@ -1,0 +1,3 @@
+https://www.dothedev.com/
+
+https://www.dothedev.com/blog/django-admin-change-color/
