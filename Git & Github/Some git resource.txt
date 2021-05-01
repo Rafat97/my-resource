@@ -1,0 +1,9 @@
+https://www.freecodecamp.org/news/10-important-git-commands-that-every-developer-should-know/
+
+https://dzone.com/articles/top-20-git-commands-with-examples
+
+https://www.freecodecamp.org/news/git-cheat-sheet/
+
+https://www.youtube.com/watch?v=KUal3Lh-xuE
+
+https://stackoverflow.com/questions/348170/how-do-i-undo-git-add-before-commit
