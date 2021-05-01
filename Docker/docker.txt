@@ -1,0 +1,17 @@
+https://github.com/aschmelyun/docker-compose-laravel
+
+https://webomnizz.com/containerize-your-laravel-application-with-docker-compose/
+
+https://dev.to/veevidify/docker-compose-up-your-entire-laravel-apache-mysql-development-environment-45ea
+
+
+https://github.com/docker-library/docs/tree/9660a0cccb87d8db842f33bc0578d769caaf3ba9
+
+https://laravel-news.com/laravel-scheduler-queue-docker
+
+https://stackoverflow.com/questions/60722553/run-laravel-queue-worker-in-docker
+
+#docker in aws
+https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html
+https://gist.github.com/npearce/6f3c7826c7499587f00957fee62f8ee9
+https://docs.docker.com/compose/install/
