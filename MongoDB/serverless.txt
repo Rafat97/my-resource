@@ -1,0 +1,5 @@
+https://www.mongodb.com/blog/post/optimizing-aws-lambda-performance-with-mongodb-atlas-and-nodejs
+
+https://www.mongodb.com/blog/post/serverless-development-with-nodejs-aws-lambda-mongodb-atlas
+
+https://www.mongodb.com/presentations/webinar-serverless-architectures-with-aws-lambda-and-mongodb-atlas
