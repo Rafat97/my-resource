@@ -5,3 +5,5 @@ https://www.dothedev.com/blog/django-admin-change-color/
 
 https://levelup.gitconnected.com/optimizing-django-queries-28e96ad204de
 
+https://londonappdeveloper.com/deploying-django-with-docker-compose/
+
