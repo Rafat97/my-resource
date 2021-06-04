@@ -1,0 +1,66 @@
+KeypointNet: A Large-Scale 3D Keypoint Dataset Aggregated From Numerous Human Annotations{
+
+	https://openaccess.thecvf.com/content_CVPR_2020/html/You_KeypointNet_A_Large-Scale_3D_Keypoint_Dataset_Aggregated_From_Numerous_Human_CVPR_2020_paper.html
+
+	Detecting 3D objects keypoints. KeypointNet: the first large-scale and diverse 3D keypoint dataset that contains 83,231 keypoints and 8,329 3D models from 16 object categories
+}
+
+A Local-to-Global Approach to Multi-Modal Movie Scene Segmentation{
+	https://openaccess.thecvf.com/content_CVPR_2020/html/Rao_A_Local-to-Global_Approach_to_Multi-Modal_Movie_Scene_Segmentation_CVPR_2020_paper.html
+
+	There experiments show that the proposed network is able to segment a movie into scenes with high accuracy, consistently outperforming previous methods
+}
+
+Dynamic Traffic Modeling From Overhead Imagery{
+
+	https://openaccess.thecvf.com/content_CVPR_2020/html/Workman_Dynamic_Traffic_Modeling_From_Overhead_Imagery_CVPR_2020_paper.html
+	
+	There goal is to use overhead imagery to understand patterns in traffic flow, for instance answering questions such as how fast could you traverse Times.
+	They propose an automatic approach for generating dynamic maps of traffic speeds using convolutional neural networks
+}
+
+Learning to See Through Obstructions {
+	https://openaccess.thecvf.com/content_CVPR_2020/html/Liu_Learning_to_See_Through_Obstructions_CVPR_2020_paper.html
+	
+	It's a learning-based approach for removing unwanted obstructions, such as window reflections, fence occlusions or raindrops
+}
+
+
+
+Learning Visual Emotion Representations From Web Data{
+	https://openaccess.thecvf.com/content_CVPR_2020/html/Wei_Learning_Visual_Emotion_Representations_From_Web_Data_CVPR_2020_paper.html
+
+	It is emotion recognition paper. This experimental results establish that EmotionNet trained on the StockEmotion dataset outperforms SOTA models on four different visual emotion tasks
+}
+
+Classifying, Segmenting, and Tracking Object Instances in Video with Mask Propagation{
+	https://openaccess.thecvf.com/content_CVPR_2020/html/Bertasius_Classifying_Segmenting_and_Tracking_Object_Instances_in_Video_with_Mask_CVPR_2020_paper.html
+	
+	They introduce a method for simultaneously classifying, segmenting and tracking object instances in a video sequence. There method name is `MaskProp`
+}
+
+Connect-and-Slice: An Hybrid Approach for Reconstructing 3D Objects{
+	https://openaccess.thecvf.com/content_CVPR_2020/html/Fang_Connect-and-Slice_An_Hybrid_Approach_for_Reconstructing_3D_Objects_CVPR_2020_paper.html
+
+	In this paper, they address this issue with an hybrid method that successively connects and slices planes detected from 3D data. 
+	The core idea is constructing an efficient and compact partitioning data structure. 
+	
+	Later they say 
+		`spatially-adaptive in the sense`
+		`composed of components with different structural`
+}
+
+Learning to Structure an Image With Few Colors{
+	https://openaccess.thecvf.com/content_CVPR_2020/html/Hou_Learning_to_Structure_an_Image_With_Few_Colors_CVPR_2020_paper.html
+	
+	
+}
+Autolabeling 3D Objects With Differentiable Rendering of SDF Shape Priors{
+	
+	https://openaccess.thecvf.com/content_CVPR_2020/html/Zakharov_Autolabeling_3D_Objects_With_Differentiable_Rendering_of_SDF_Shape_Priors_CVPR_2020_paper.html
+
+	This autolabeling method solves an ill-posed inverse problem by considering learned shape priors and optimizing geometric and physical parameters
+}
+
+
+***Visual Question Answering
