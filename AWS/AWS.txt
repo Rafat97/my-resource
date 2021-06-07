@@ -9,3 +9,6 @@ How to force HTTPS in a Laravel project?
 
 AWS Code Sample
 	https://docs.aws.amazon.com/code-samples/
+
+AWS KC Videos: How do I redirect (apex) domain to my website hosted on EC2 in AWS?
+	https://www.youtube.com/watch?v=ZRSfJ6SWIqA
