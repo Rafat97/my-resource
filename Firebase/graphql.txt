@@ -1,0 +1,7 @@
+https://medium.com/mehak-vohra/using-graphql-to-query-your-firebase-realtime-database-a6e6cbd6aa3a
+
+
+https://medium.com/@lukepighetti/yes-you-can-query-firebase-with-graphql-e79a45990f22
+
+https://stackoverflow.com/questions/37535374/firebase-graphql
+
