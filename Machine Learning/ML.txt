@@ -1,0 +1,15 @@
+https://github.com/josephmisiti/awesome-machine-learning
+
+
+https://www.mrdbourke.com/2020-machine-learning-roadmap/
+
+https://developers.google.com/machine-learning/crash-course/
+
+
+https://ml-cheatsheet.readthedocs.io/en/latest/gradient_descent.html
+
+
+https://github.com/Kulbear/deep-learning-coursera/tree/master/Neural%20Networks%20and%20Deep%20Learning
+
+
+https://youtube.com/playlist?list=PLfFghEzKVmjvuSA67LszN1dZ-Dd_pkus6
