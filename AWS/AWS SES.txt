@@ -1,0 +1,2 @@
+https://docs.aws.amazon.com/ses/latest/DeveloperGuide/monitoring-sender-reputation-pausing.html
+
