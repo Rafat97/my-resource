@@ -13,3 +13,5 @@ https://github.com/Kulbear/deep-learning-coursera/tree/master/Neural%20Networks%
 
 
 https://youtube.com/playlist?list=PLfFghEzKVmjvuSA67LszN1dZ-Dd_pkus6
+
+https://www.kaggle.com/ldfreeman3/a-data-science-framework-to-achieve-99-accuracy/notebook
