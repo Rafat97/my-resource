@@ -1,5 +1,7 @@
 https://github.com/josephmisiti/awesome-machine-learning
 
+https://www.mltut.com/machine-learning/
+
 
 https://www.mrdbourke.com/2020-machine-learning-roadmap/
 
